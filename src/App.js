@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 var user = "chinyasuhail"
 
-const lol = process.env.H_I;
+const lol = process.env.REACT_APP_USER;
 
 export default class App extends Component {
 
