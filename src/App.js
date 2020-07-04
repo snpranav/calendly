@@ -9,7 +9,7 @@ export default class App extends Component {
 
       return (
       <div className="App">
-        <h1>{process.env.VERCEL_URL} wtf</h1>
+        <h1>{process.env.H_I} hi</h1>
    
       </div>
     );
