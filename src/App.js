@@ -3,13 +3,6 @@ import './App.css';
 
 var user = "chinyasuhail"
 
-
-
-
-
-export default class App extends Component {
-
-
   dataURL = ('https://calendly.com/'+ user + window.location.pathname);
   render() {
     return (
