@@ -9,7 +9,7 @@ export default class App extends Component {
 
       return (
       <div className="App">
-        <h1>{process.env.user}</h1>
+        <h1>{process.env.MyUser}</h1>
       <div className="calendly-inline-widget col-12" data-url={this.dataURL} style={{ position:"absolute", top:0, height:"100%", width:"100%" }}></div>
       </div>
     );
