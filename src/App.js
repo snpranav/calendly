@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 
-var user = "chinyasuhail"
-
-const lol = process.env.REACT_APP_USER;
+const user = process.env.REACT_APP_USER;
 
 export default class App extends Component {
 
@@ -10,10 +8,10 @@ export default class App extends Component {
     render() {
 
       return (
-      <div className="App">
-        <h1>{lol} hi</h1>
-   
+     <div className="App">
+      <div className="calendly-inline-widget col-12" data-url={this.dataURL} style={{ position:"absolute", top:0, height:"100%", width:"100%" }}></div>
       </div>
+   
     );
   }
 }
