@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 var user = "chinyasuhail"
 
+const lol = process.env.H_I;
+
 export default class App extends Component {
 
   dataURL = ('https://calendly.com/'+ user + window.location.pathname);
@@ -9,7 +11,7 @@ export default class App extends Component {
 
       return (
       <div className="App">
-        <h1>{process.env.H_I} hi</h1>
+        <h1>{lol} hi</h1>
    
       </div>
     );
