@@ -9,7 +9,7 @@ export default class App extends Component {
 
       return (
       <div className="App">
-        <h1>{process.env.MyUser}</h1>
+        <h1>{process.env.MyUser} wtf</h1>
    
       </div>
     );
