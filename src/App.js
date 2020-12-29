@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-const user = process.env.USERNAME;
-const name = process.env.FULL_NAME;
+const user = process.env.REACT_APP_USERNAME;
+const name = process.env.REACT_APP_FULL_NAME;
 
 
 export default class App extends Component {
