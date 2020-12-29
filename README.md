@@ -9,7 +9,6 @@ Works the same
 Better Calendly works by using the iframe embed that calendly offers but adds some CSS to make it function like the normal calendly app.
 
 ## Deploy
----
 Click on one of the following buttons to deploy on your favorite service.
 
 ### Vercel
